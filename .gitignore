@@ -1,0 +1,63 @@
+# Dependencies
+/node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage reports
+coverage/
+.nyc_output/
+
+# Build output
+build/
+dist/
+
+# Optional npm cache directory
+.npm/
+
+# Environment variables
+.env
+.env.*.local
+
+# Editor directories and files
+.vscode/
+.idea/
+*.suo
+.ntvs
+*.njsproj
+*.sln
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Optional REPL history
+.node_repl_history
+
+# Bundlers
+/public/bundle.js
+/public/bundle.js.map
+
+# TypeScript cache (if using TS)
+/*.tsbuildinfo
+
+# Yarn integrity file
+.yarn-integrity
+
+# Storybook
+.out/
+.storybook-out/
+
+# Lock files (uncomment if you don't want to commit these)
+/package-lock.json
+/yarn.lock
